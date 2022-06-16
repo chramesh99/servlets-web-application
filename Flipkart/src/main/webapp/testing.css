@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+
+       body{
+            padding: 3px;
+        }
+        .content{
+            border: 1px solid black;
+            width: 250px;
+            height: 270px;
+            padding: 5px;
+            margin-right: 10px;
+        }
+        .content img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 100px;
+        }
+        .content p{
+        	white-space: nowrap;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .content .cart{
+            float: left;
+            width: 50%;
+            height: 50px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 3px;
+            color: black;
+            cursor: pointer;
+        }
+        .content .buy{
+            width: 50%;
+            height: 50px;
+            background-color: #fb641b;
+            border: 1px solid black;
+            border-radius: 3px;
+            color: white;
+            cursor: pointer;
+            margin-top: -18px;
+        }
+        .content a{
+            text-decoration: none;
+            color: black;
+        }
+        .btn{
+            margin-top: 15px;
+        }
